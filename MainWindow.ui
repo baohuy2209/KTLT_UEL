@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>725</width>
-    <height>955</height>
+    <height>845</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -168,38 +168,23 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>470</y>
+      <y>550</y>
       <width>701</width>
-      <height>411</height>
+      <height>231</height>
      </rect>
     </property>
     <property name="title">
      <string>Display Fraction</string>
     </property>
-    <widget class="QLineEdit" name="lineEditAllFraction">
-     <property name="geometry">
-      <rect>
-       <x>22</x>
-       <y>40</y>
-       <width>661</width>
-       <height>131</height>
-      </rect>
-     </property>
-    </widget>
     <widget class="QTableWidget" name="tableWidgetListFraction">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>180</y>
-       <width>661</width>
+       <x>480</x>
+       <y>20</y>
+       <width>201</width>
        <height>192</height>
       </rect>
      </property>
-     <column>
-      <property name="text">
-       <string>STT</string>
-      </property>
-     </column>
      <column>
       <property name="text">
        <string>Numerator</string>
@@ -211,6 +196,23 @@
       </property>
      </column>
     </widget>
+    <widget class="QTextEdit" name="textEditDisplayFraction">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>431</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:18px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_4">
     <property name="geometry">
@@ -218,7 +220,7 @@
       <x>10</x>
       <y>340</y>
       <width>701</width>
-      <height>121</height>
+      <height>191</height>
      </rect>
     </property>
     <property name="title">
@@ -274,6 +276,45 @@
      </property>
      <property name="text">
       <string>Delete</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonSort">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>120</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Sort</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonRefresh">
+     <property name="geometry">
+      <rect>
+       <x>460</x>
+       <y>120</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Refresh</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonSimlify">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>120</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Simplify</string>
      </property>
     </widget>
    </widget>
