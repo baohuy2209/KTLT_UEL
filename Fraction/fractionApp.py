@@ -2,7 +2,7 @@ import traceback
 
 from PyQt6.QtWidgets import QApplication, QMainWindow
 
-from MainWindowExt import MainWindowExt
+from Fraction.ui.MainWindowExt import MainWindowExt
 try:
     app = QApplication([])
     myWindow = MainWindowExt()
