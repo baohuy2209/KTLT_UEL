@@ -1,0 +1,100 @@
+[
+    {
+        "invoice_id": "#0001",
+        "company_name": "VNG Cooperation",
+        "street_name": "High technological area",
+        "address": "TP. Ho Chi Minh",
+        "date": "2025-22-02",
+        "person_send": "Accountant",
+        "person_received": "Executive",
+        "list_detail": [
+            {
+                "id": 1,
+                "Detail": "Consultation (1 hours)",
+                "Amount": 350
+            },
+            {
+                "id": 2,
+                "Detail": "Design services (8 hours)",
+                "Amount": 400
+            }
+        ],
+        "tax_rate": 8.75,
+        "other_cost": 0,
+        "is_deleted": ""
+    },
+    {
+        "invoice_id": "#002",
+        "company_name": "Ngix Cooperation ",
+        "street_name": "Lemon Tree Street",
+        "address": "USA",
+        "date": "2025-02-05",
+        "person_send": "Accountant Nguyen Bao Huy",
+        "person_received": "Director",
+        "list_detail": [
+            {
+                "Detail": "Design Service ",
+                "Amount": 400.0
+            },
+            {
+                "Detail": "Hire freelance",
+                "Amount": 400.0
+            },
+            {
+                "Detail": "Buy Domain Name",
+                "Amount": 800.0
+            },
+            {
+                "Detail": "Buy new equipment",
+                "Amount": 800.0
+            }
+        ],
+        "tax_rate": 4.5,
+        "other_cost": 0.0,
+        "is_deleted": ""
+    },
+    {
+        "invoice_id": "#0003",
+        "company_name": "Microsoft",
+        "street_name": "Silicon Valley ",
+        "address": "USA",
+        "date": "2025-02-05",
+        "person_send": "Nguyen Bao Huy",
+        "person_received": "Bill Gates ",
+        "list_detail": [
+            {
+                "Detail": "Hire freelancer",
+                "Amount": 1000.0
+            },
+            {
+                "Detail": "Buy a host website",
+                "Amount": 400.0
+            }
+        ],
+        "tax_rate": 4.5,
+        "other_cost": 100.0,
+        "is_deleted": ""
+    },
+    {
+        "invoice_id": "#0004",
+        "company_name": "Meta",
+        "street_name": "Silicon Valey",
+        "address": "USA",
+        "date": "2025-02-10",
+        "person_send": "Nguyen Bao Huy",
+        "person_received": "Mark Zuckerburg",
+        "list_detail": [
+            {
+                "Detail": "Hire Freelancer",
+                "Amount": 1000.0
+            },
+            {
+                "Detail": "buy a equipment ",
+                "Amount": 500.0
+            }
+        ],
+        "tax_rate": 0.0,
+        "other_cost": 0.0,
+        "is_deleted": "True"
+    }
+]
