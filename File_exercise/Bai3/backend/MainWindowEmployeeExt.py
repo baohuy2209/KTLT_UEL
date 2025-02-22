@@ -23,6 +23,7 @@ class MainWindowEmployeeExt(Ui_MainWindow):
         self.pushButtonStore.clicked.connect(self.store)
         self.pushButtonUpdate.clicked.connect(self.update)
         self.pushButtonDelete.clicked.connect(self.delete)
+        self.tableWidgetListEmployee.itemSelectionChanged.connect(self.choose_employee)
     def update(self):
         emp = self.list_employee.get_employee_by_id(self.lineEditID.text())
         if emp==None:
@@ -41,7 +42,7 @@ class MainWindowEmployeeExt(Ui_MainWindow):
         msgBox.setStandardButtons(buttons)
         button = msgBox.exec()
         if button == QMessageBox.StandardButton.Yes:
-            result = self.list_employee.remove_employee_by_id(int(self.lineEditID.text()))
+            result = self.list_employee.remove_employee_by_id(self.lineEditID.text())
             if result:
                 self.display()
             else:
@@ -82,6 +83,7 @@ class MainWindowEmployeeExt(Ui_MainWindow):
         if filename == "":
             return
         employees = self.file_factory.readData(filename, Employee)
+        print(employees)
         self.list_employee.list_employee = employees
         self.display()
     def show(self):

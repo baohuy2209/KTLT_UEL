@@ -5,6 +5,8 @@ class ListEmployee:
         return len(self.list_employee)
     def add(self, employee):
         self.list_employee.append(employee)
+    def get_all(self):
+        return self.list_employee
     def get_employee_by_id(self, emp_id):
         emp_temp = None
         for emp in self.list_employee:
