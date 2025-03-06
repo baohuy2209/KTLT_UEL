@@ -7,14 +7,11 @@ from Student.ui.MainWindow import Ui_MainWindow
 
 class MainWindowExt(Ui_MainWindow):
     def setupUi(self, MainWindow):
-        try:
-            super().setupUi(MainWindow)
-            self.MainWindow = MainWindow
-            self.student_dal = StudentDAL()
-            self.student_dal.connect()
-            self.setupSignalAndSlots()
-        except:
-            traceback.print_exc()
+        super().setupUi(MainWindow)
+        self.MainWindow = MainWindow
+        self.student_dal = StudentDAL()
+        self.student_dal.connect()
+        self.setupSignalAndSlots()
     def setupSignalAndSlots(self):
         pass
     def display_student(self):

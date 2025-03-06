@@ -1,0 +1,5 @@
+1 | Nguyen Bao Huy | huynguyen002311@gmail.com | 0375686583 | Binh Dinh | 12
+2 | Nguyen Hai Ly | haily20@gmail.com | 0913406340 | Binh Dinh | 13
+3 | Nguyen Bao Binh | baobinh@gmail.com | 0345403449 | Binh Dinh | 14
+4 | Huynh Tan Phat | phathuynh182gmail.com | 0348403449 | Binh Dinh | 63
+5 | Nguyen Khoa Diem | khoadiem@gmail.com | 0375686583 | Binh Dinh | 90

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "email": "huynguyen002311@gmail.com",
+        "username": "huynguyen",
+        "password": "123"
+    },
+    {
+        "id": 2,
+        "email": "haily30@gmail.com",
+        "username": "haily3032",
+        "password": "8f42e6a986f235139d9495dfdce9d8c7f47bca87cacaf50e1bfb6b40000606f8"
+    },
+    {
+        "id": 3,
+        "email": "baotrang@gmail.com",
+        "username": "baotrang37",
+        "password": "bd94760b6e01bac7ef5169a6d86840a5f76ab63122100afd1236e5d4d7b52f66"
+    },
+    {
+        "id": 4,
+        "email": "phathuynh1802@gmail.com",
+        "username": "phathuynh180242",
+        "password": "0b20b8f51ef1607c3576431ca5cb5f2d9be4c46799402849e14ab1f181128a5f"
+    }
+]

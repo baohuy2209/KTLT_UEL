@@ -2,6 +2,7 @@ import traceback
 
 from PyQt6.QtWidgets import QTableWidgetItem
 
+from File_exercise.Bai2.model.ListStudent import ListStudent
 from File_exercise.Bai2.ui.MainWindow import Ui_MainWindow
 
 
@@ -19,7 +20,7 @@ class MainWindowExt(Ui_MainWindow):
         pass
     def display_student(self):
         self.is_completed = False
-        for student in students:
+        for student in self.list_student:
             print(student)
         # for i in range(len(students)):
         #     student_i = students[i]
