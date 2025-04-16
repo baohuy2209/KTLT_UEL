@@ -3,6 +3,10 @@ class Fraction:
         self.numerator = numerator
         self.denominator = denominator
     def gcd(self, a, b):
+        if a < 0:
+            a = -a
+        if b < 0:
+            b = -b
         while a != b:
             if a < b:
                 b = b - a
@@ -16,7 +20,6 @@ class Fraction:
     def sum(self, another_fraction):
         self.numerator = self.numerator*another_fraction.denominator + another_fraction.numerator*self.denominator
         self.denominator = self.denominator*another_fraction.denominator
-        self.simple_fraction(self.numerator, self.denominator)
     def approximate(self):
         return round(self.numerator / self.denominator, 2)
     def __str__(self):

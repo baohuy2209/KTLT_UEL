@@ -34,6 +34,6 @@ class ListFraction:
         return max_fraction
     def sum(self):
         result_fraction = Fraction(0, 1)
-        for i in range(len(self.list_fraction)):
+        for i in range((len(self.list_fraction))):
             result_fraction.sum(self.list_fraction[i])
         return result_fraction

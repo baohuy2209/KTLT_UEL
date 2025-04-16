@@ -82,7 +82,7 @@ class FractionWindowExt(Ui_MainWindow):
         self.textEditFraction.setText(str_display)
     def sum(self):
         result = self.list_fraction.sum()
-        self.lineEditResult.setText(f"Sum of 100 fractions: {result}")
+        self.lineEditResult.setText(f"Sum of 100 fractions: {round(result.approximate(),2)}")
     def create_100_fraction(self):
         for _ in range(100):
             numerator = random.randint(-100, 100)
@@ -97,6 +97,5 @@ class FractionWindowExt(Ui_MainWindow):
         button = msg.exec()
         if button == QMessageBox.StandardButton.Close:
             msg.close()
-
     def show(self):
         self.MainWindow.show()
